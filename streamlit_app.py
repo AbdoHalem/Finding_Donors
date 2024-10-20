@@ -7,7 +7,7 @@ import joblib
 from sklearn.cluster import KMeans
 
 st.title('🤖 Machine Learning App')
-st.info('This is app predicts the annual salary of a person whether is more than 50K dollars or less !')
+st.info('This app predicts the annual salary of a person whether is more than 50K dollars or less !')
 
 with st.expander("Data"):
     st.write('**Raw Data**')

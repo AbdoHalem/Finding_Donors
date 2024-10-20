@@ -10,11 +10,11 @@ st.title('🤖 Machine Learning App')
 st.info('This app predicts the annual salary of a person whether is more than 50K dollars or less !')
 
 with st.expander("Data"):
-    st.write('**Raw Data**')
+    st.write('**Dataset**')
     data = pd.read_csv("census.csv")
     data
 
-with st.expander("Data Visualization and analysis"):
+with st.expander("Data Visualization and Analysis"):
     st.image('output.png', caption='Relations between each column and number of people with annual salary > 50K dollars', use_column_width=True)
     st.write("""### These graphs show that
 1- People who are older than 30 years old and younger than 50 years old are the most profitable for more than 50 thousand annually

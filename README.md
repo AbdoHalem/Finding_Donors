@@ -7,16 +7,3 @@ If not, this person is expected to not donate for the charity. So, the charity w
 ### How to run it on your own machine
 Open this URL link
 https://finding-donors.streamlit.app/
-
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```

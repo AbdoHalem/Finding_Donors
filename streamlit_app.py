@@ -74,7 +74,7 @@ with st.sidebar:
             }
     input_df = pd.DataFrame(features, index=[0])
 
-with st.expander('Input features'):
+with st.expander('Input Features'):
     input_df
 
 # Load the model and preprocessing objects
